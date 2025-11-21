@@ -1,0 +1,90 @@
+.register-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f7ff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.register-card {
+  background: white;
+  width: 380px;
+  padding: 30px 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-title {
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.register-form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.register-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.register-form input:focus {
+  border-color: #3578f6;
+  outline: none;
+}
+
+.register-btn {
+  background: #3578f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.register-btn:hover {
+  background: #2c64cc;
+}
+
+.switch-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.switch-text a {
+  color: #3578f6;
+  text-decoration: none;
+}
+
+.switch-text a:hover {
+  text-decoration: underline;
+}
+
+.error-text {
+  color: red;
+  text-align: center;
+  font-size: 13px;
+}
+
+.success-text {
+  color: green;
+  text-align: center;
+  font-size: 13px;
+}
